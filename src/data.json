@@ -1,0 +1,28 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "title": "OUR MAIN OFFICE",
+      "content": "〒812-0011 福岡市博多区博多駅前3丁目27－25 第二岡部ビル4F",
+      "img": "/images/location.svg"
+    },
+    {
+      "id": 2,
+      "title": "PHONE",
+      "content": "090-1111-2222",
+      "img": "/images/phone.svg"
+    },
+    {
+      "id": 3,
+      "title": "FAX",
+      "content": "090-1111-5555",
+      "img": "/images/fax.svg"
+    },
+    {
+      "id": 4,
+      "title": "EMAIL",
+      "content": "admin@example.com",
+      "img": "/images/email.svg"
+    }
+  ]
+}
