@@ -1,5 +1,6 @@
 import data from '../data.json';
 import {Card, CardBody, CardHeader} from "@nextui-org/react";
+import {Fade} from "react-awesome-reveal";
 export const Contact = () => {
 
   const contactData = data.contact;
@@ -23,18 +24,21 @@ export const Contact = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5 mx-5 mt-10 items-center lg:mx-60">
             {contactData.map((contentList, index) => (
-              <Card className="py-6 shadow-2xl rounded-md transition-transform duration-300 hover:-translate-y-2"
-                    key={index}>
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
-                  <img src={contentList.img}
-                       className="w-10 h-10 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
-                       alt={contentList.title}/>
-                </CardHeader>
-                <CardBody className="text-center py-2">
-                  <h4 className="font-bold text-sm pt-2 text-gray-600">{contentList.title}</h4>
-                  <h4 className="text-sm pt-4 text-gray-600">{contentList.content}</h4>
-                </CardBody>
-              </Card>
+              <Fade key={index} direction={index % 2 === 0 ? "left" : "right"} triggerOnce>
+                <Card className="py-6 shadow-2xl rounded-md transition-transform duration-300 hover:-translate-y-2">
+                  <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
+                    <img
+                      src={contentList.img}
+                      className="w-10 h-10 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
+                      alt={contentList.title}
+                    />
+                  </CardHeader>
+                  <CardBody className="text-center py-2">
+                    <h4 className="font-bold text-sm pt-2 text-gray-600">{contentList.title}</h4>
+                    <h4 className="text-sm pt-4 text-gray-600">{contentList.content}</h4>
+                  </CardBody>
+                </Card>
+              </Fade>
             ))}
           </div>
         </div>

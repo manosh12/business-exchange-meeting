@@ -1,9 +1,11 @@
 
 import '../App.css';
+import {Fade} from "react-awesome-reveal";
 
 export const ExchangeMeeting_Overview = () => {
   return (
     <div className="lg:mt-40 mb-10 mt-20" id="business_exchange">
+      <Fade direction={"down"}>
       <div className="container mx-auto max-w-6xl">
         <h4 className="text-3xl font-bold text-center">交流会 概要 </h4>
         <h6 className="text-center text-2xl mt-10 mx-5">第1回「ビジネス交流会」を開催致しました</h6>
@@ -12,10 +14,10 @@ export const ExchangeMeeting_Overview = () => {
             東和新生会「ビジネス交流会」は、東和銀行のお客様で組織する「東和新生会」が主催し、今回で第18回目となります。
           </p>
           <p className="my-3 text-md">
-            このビジネス交流会は、お客様の本業支援のために産・官・学・金が協働して開催するものであり、さまざまな業種業態のお客様が自慢の商品・製品・サービスを携えて集結する「異業種交流型」の展示商談会となっております。
+            功ロルヲ表元ソ寛気こ任後呼週リホニイ昨容つ雪提しほへ詳97航ヘ時大リ負課えいね直何ハヒコノ残住語援器いぽ。代頭しやがぶ告純りけぽぞ聞行ぱ選有ょンな購貯ほし次江ハミヱ甲員やス平2能マ学止よ研有ぐな手下イ応取わむリべ将第おしばリ化要ヌヱ病秋85正リワカク出罪ロホレセ段階齢団けにも。康70店イネコア掲1日よだぴ見尾テ間誇おぴへ区字ナ語渋ごょ重手やーあ天和目由優挙仮ラでへけ。
           </p>
           <p className="text-md">
-            今回のビジネス交流会においても、地域経済活性化に向けた北関東地域銀行3行による「広域連携協定」に基づき、茨城県の筑波銀行、栃木県の栃木銀行のお取引先企業もご参加頂き下記要領にて実施し、2,500名の方にご来場いただきました。
+            購貯ほし次江ハミヱ甲員やス平2能マ学止よ研有ぐな手下イ応取わむリべ将第おしばリ化要ヌヱ病秋85正リワカク出罪ロホレセ段階齢団けにも。康70店イネコア掲1日よだぴ見尾テ間誇おぴへ区字ナ語渋
           </p>
 
           <div className="bussiness_ex mt-10 rounded-sm">
@@ -26,20 +28,21 @@ export const ExchangeMeeting_Overview = () => {
           </div>
         </div>
       </div>
+      </Fade>
 
       <div className="bg-[#f0f5f7] mt-20">
         <div className="container mx-auto max-w-6xl py-10">
           <h4 className="text-center text-3xl font-bold my-10"> 概要 </h4>
           <div className="lg:mx-20 mx-5">
             <p>
-              第18回東和新生会「ビジネス交流会」を今年も来る11月22日（水）に、「Gメッセ群馬」にて開催いたします。
+              第18回TEST「ビジネス交流会」を今年も来る7月10日（水）に、「Gメッセ群馬」にて開催いたします。
               このビジネス交流会は今回で18回目の開催になります。
             </p>
             <p className="my-3">
-              お客様の本業支援のために、産・官・学が協働して開催するものであり、さまざまな業種業態のお客様が自慢の商品・サービスを携えて集結する「異業種交流会」の展示商談会となっております。
+              購貯ほし次江ハミヱ甲員やス平2能マ学止よ研有ぐな手下イ応取わむリべ将第おしばリ化要ヌヱ病秋85正リワカク出罪ロホレセ段階齢団けにも。康70店イネコア掲1日よだぴ見尾テ間誇おぴへ区字ナ語渋
             </p>
             <p>
-              今回のビジネス交流会でも、北関東地域銀行3行による「広域連携協定」に基づき、茨城県の筑波銀行、栃木県の栃木銀行のお取引先企業の参加を予定しております。
+              功ロルヲ表元ソ寛気こ任後呼週リホニイ昨容つ雪提しほへ詳97航ヘ時大リ負課えいね直何ハヒコノ残住語援器いぽ。代頭しやがぶ告純りけぽぞ聞行ぱ選有ょンな購貯ほし次江ハミヱ甲員やス平2
             </p>
             <p className="my-5">ご入場無料となっております。<br/>
               皆様のご来場をお待ちしております。
@@ -49,6 +52,7 @@ export const ExchangeMeeting_Overview = () => {
       </div>
 
       <div className="container mx-auto max-w-6xl">
+        <Fade direction={"left"}>
         <div className="py-7 border-t border-gray-200 mt-10 lg:mx-20 mx-2">
           <table className="min-w-full">
             <tbody className="bg-white">
@@ -60,7 +64,7 @@ export const ExchangeMeeting_Overview = () => {
               <td className="px-6 py-4 lg:border-l-2 lg:border-gray-300">
                 <div className="flex items-center h-full">
                   <div className="text-md text-gray-600">
-                    2023年11月22日（水）11:00～16:00
+                    2023年7月10日（水）11:00～16:00
                   </div>
                 </div>
               </td>
@@ -76,7 +80,7 @@ export const ExchangeMeeting_Overview = () => {
               <td className="px-6 py-4 lg:border-l-2 lg:border-gray-300">
                 <div className="flex items-center h-full">
                   <div className="text-md text-gray-600">
-                    〒810-0011 福岡市博多区博多駅前3丁目27－25 第二岡部ビル4F<br/>
+                    〒810-1111 福岡市博多区博多駅前3丁目10－20 テストビル4F<br/>
                     <span>JR博多駅から徒歩5分</span>
                   </div>
                 </div>
@@ -93,7 +97,7 @@ export const ExchangeMeeting_Overview = () => {
               <td className="px-6 py-4 lg:border-l-2 lg:border-gray-300">
                 <div className="flex items-center h-full">
                   <div className="text-md text-gray-600">
-                    東和銀行、群馬大学、前橋工科大学、筑波銀行、栃木銀行、東和ニュービジネスクラブ
+                    購貯ほし次江ハミヱ甲員やス平2能マ学止よ研有ぐな手下イ応取わむリべ将第おしばリ化要ヌヱ病秋85正。
                   </div>
                 </div>
               </td>
@@ -109,9 +113,8 @@ export const ExchangeMeeting_Overview = () => {
               <td className="px-6 py-4 lg:border-l-2 lg:border-gray-300">
                 <div className="flex items-center h-full">
                   <div className="text-md text-gray-600">
-                    経済産業省 関東経済産業局、群馬県、埼玉県、前橋市、高崎市、渋川市、群馬県産業支援機構、埼玉県産業振興公社、埼玉大学、
-                    群馬工業高等専門学校、北関東産官学研究会、量子科学技術研究開発機構高崎量子応用研究所、群馬県信用保証協会、埼玉県信用保証協会
-                    群馬県商工会議所連合会、前橋商工会議所、高崎商工会議所、上毛新聞社、埼玉新聞社、群馬テレビ
+                    群馬県、埼玉県、前橋市、高崎市、渋川市、群馬県産業支援機構、埼玉県産業振興公社、埼玉大学、
+                    群馬工業高等専門学校、北関東産官学研究会、量子科学技術研究開発機構高崎量子応用研究所、群馬県信用保証協会、
                   </div>
                 </div>
               </td>
@@ -119,8 +122,11 @@ export const ExchangeMeeting_Overview = () => {
             </tbody>
           </table>
         </div>
+        </Fade>
+
 
         {/*式次第*/}
+        <Fade direction={"right"}>
         <div className="py-7 border-t border-gray-200 mt-10 lg:mx-20 mx-2">
           <table className="min-w-full">
             <tbody className="bg-white">
@@ -135,9 +141,9 @@ export const ExchangeMeeting_Overview = () => {
                     <h4 className="text-lg">開会セレモニー</h4>
                     <h4>挨拶</h4>
                     <div className="">
-                      株式会社ABC 会長 坂本 勉様<br/>
-                      株s機会社THC 学長 石崎 泰樹様<br/>
-                      株式会社XYZ 学長 今村 一之様
+                      株式会社ABC 山田様<br/>
+                      株s機会社MNO 鈴木様<br/>
+                      株式会社XYZ 田中様
                     </div>
                   </div>
                 </div>
@@ -154,7 +160,7 @@ export const ExchangeMeeting_Overview = () => {
               <td className="px-6 py-4 lg:border-l-2 lg:border-gray-300">
                 <div className="flex items-center h-full">
                 <div className="text-md text-gray-600">
-                    〒810-0011 福岡市博多区博多駅前3丁目27－25 第二岡部ビル4F<br/>
+                  〒810-1111 福岡市博多区博多駅前3丁目10－20 テストビル4F<br/>
                     <span>JR博多駅から徒歩5分</span>
                   </div>
                 </div>
@@ -171,7 +177,7 @@ export const ExchangeMeeting_Overview = () => {
               <td className="px-6 py-4 lg:border-l-2 lg:border-gray-300">
                 <div className="flex items-center h-full">
                   <div className="text-md text-gray-600">
-                    東和銀行、群馬大学、前橋工科大学、筑波銀行、栃木銀行、東和ニュービジネスクラブ
+                    功ロルヲ表元ソ寛気こ任後呼週リホニイ昨容つ雪提しほへ詳97航ヘ時大リ負課えいね直何ハヒコノ残住語援器いぽ。
                   </div>
                 </div>
               </td>
@@ -193,6 +199,7 @@ export const ExchangeMeeting_Overview = () => {
             </tbody>
           </table>
         </div>
+        </Fade>
         <div className="py-7 border-t border-gray-200 mt-5 lg:mx-20 mx-2"></div>
       </div>
     </div>

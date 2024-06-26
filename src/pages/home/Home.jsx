@@ -5,6 +5,7 @@ import { ExchangeMeeting_Overview } from "../../components/ExchangeMeeting_Overv
 import { FaArrowDownLong } from "react-icons/fa6";
 import {Link, useLocation} from "react-router-dom";
 import {Contact} from "../../components/Contact.jsx";
+import {Fade} from "react-awesome-reveal";
 
 export const Home = () => {
   const [showArrow, setShowArrow] = useState(true);
@@ -39,6 +40,7 @@ export const Home = () => {
   return (
     <div className="text-gray-600">
       <div className="container mx-auto max-w-6xl">
+        <Fade direction={"down"}>
         <div className="flex flex-col sm:grid sm:grid-cols-2 gap-20 mx-5 lg:mt-14">
           {/* Image section */}
           <div className="order-1 sm:order-2 flex justify-center items-center mt-10 sm:mt-0">
@@ -67,20 +69,24 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        </Fade>
 
 
         <div className="grid sm:grid-cols-3 gap-20 mx-5 mt-16">
-          <div className="flex justify-center items-center">
-            <div>
-              <h4 className="font-bold text-2xl">利用企業数の累計</h4>
-              <div
-                className="w-[150px] h-[150px] flex items-center justify-center border border-gray-600 rounded-full text-lg font-bold flex-col mt-10 text-gray-600 shadow-2xl">
-                20社
-                <span className="text-lg">以上</span>
+          <Fade direction={"left"}>
+            <div className="flex justify-center items-center">
+              <div>
+                <h4 className="font-bold text-2xl">利用企業数の累計</h4>
+                <div
+                  className="w-[150px] h-[150px] flex items-center justify-center border border-gray-600 rounded-full text-lg font-bold flex-col mt-10 text-gray-600 shadow-2xl">
+                  20社
+                  <span className="text-lg">以上</span>
+                </div>
               </div>
             </div>
-          </div>
+          </Fade>
 
+          <Fade direction={"down"}>
           <div className="flex justify-center items-center">
             <div>
               <h4 className="font-bold text-2xl">利用企業数の累計</h4>
@@ -91,7 +97,9 @@ export const Home = () => {
               </div>
             </div>
           </div>
+          </Fade>
 
+          <Fade direction={"right"}>
           <div className="flex justify-center items-center">
             <div>
               <h4 className="font-bold text-2xl">利用企業数の累計</h4>
@@ -102,6 +110,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
+          </Fade>
         </div>
 
         {showArrow && (
